@@ -5,7 +5,7 @@ import styles from '../styles/CompanyDetailPage.module.scss'
 
 const CompanyDetailPage = () => {
   return (
-    <div>
+    <div className={styles.companyDetailPage}>
       <Header />
       <main>
         <SummarySection></SummarySection>

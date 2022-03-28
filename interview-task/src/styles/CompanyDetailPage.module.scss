@@ -1,2 +1,7 @@
-main {
+@import './variables';
+
+.companyDetailPage {
+  width: 100vw;
+  height: 100vh;
+  background-color: $light-blue;
 }

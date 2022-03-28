@@ -5,3 +5,9 @@
     @content;
   }
 }
+
+@mixin flex-horizontal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
