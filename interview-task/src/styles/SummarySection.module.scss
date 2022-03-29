@@ -1,0 +1,51 @@
+@import "./mixin";
+@import "./variables";
+
+.summarySection {
+  @include flex-horizontal;
+  height: 30%;
+
+  p {
+    font-size: 0.75rem;
+  }
+
+  .desc {
+    max-width: 80%;
+  }
+
+  h1 {
+    font-size: 2.25rem;
+    font-weight: bold;
+    margin: 0;
+  }
+
+  .marketType {
+    font-size: 1.25rem;
+    color: $grey;
+    margin: 0 0 1.5rem 0;
+    line-height: 1.25rem;
+  }
+
+  .websiteLinkWrapper {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    p {
+      margin-left: 0.5rem;
+    }
+  }
+
+  .logo {
+    width: 10rem;
+  }
+
+  .linkIconWrapper {
+    @include flex-horizontal;
+
+    img {
+      width: 1.25rem;
+    }
+  }
+}

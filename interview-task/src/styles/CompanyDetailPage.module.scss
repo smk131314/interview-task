@@ -1,0 +1,48 @@
+@import './variables';
+@import './mixin';
+
+.companyDetailPage {
+  width: 100vw;
+  height: 100vh;
+  background-color: $light-blue;
+  @include flex-vertical;
+
+  main {
+    padding: 1.25rem 10vw;
+    height: 100%;
+    flex: 1;
+    @include flex-vertical;
+    overflow: hidden;
+  }
+  
+  .cardsSection {
+    flex: 1;
+    @include flex-horizontal;
+  }
+  
+  .fixedCard {
+    width: 20rem;
+    height: 100%;
+    margin-left: 1.25rem;
+    @include flex-vertical;
+
+    > div:first-child {
+      height: 9rem;
+    }
+    > div:last-child {
+      margin-top: 1.25rem;
+      flex: 1;
+    } 
+  }
+
+  .backButton {
+    color: white;
+    font-size: 1rem;
+    img {
+      width: 1rem;
+    }
+    span {
+      line-height: 1rem;
+    }
+  }
+}

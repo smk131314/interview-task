@@ -1,0 +1,39 @@
+@import './variables';
+@import './mixin';
+
+header {
+  @include flex-horizontal;
+
+  background-color: $blue;
+  padding: 0 10vw;
+  height: 2.5rem;
+
+  img {
+    width: 10rem;
+  }
+
+  li > a {
+    color: white;
+    font-size: 0.75rem;
+    margin-right: 1rem;
+  }
+
+  ul {
+    @include flex-horizontal;
+  }
+}
+
+.mobileMenuIcon {
+  display: none;
+}
+
+@include mobile-and-tablet {
+  .mobileMenuIcon {
+    display: block;
+    width: 1.5rem;
+  }
+
+  .menuNavigation {
+    display: none;
+  }
+}
