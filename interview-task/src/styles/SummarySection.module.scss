@@ -3,6 +3,7 @@
 
 .summarySection {
   @include flex-horizontal;
+  height: 30%;
 
   p {
     font-size: 0.75rem;
@@ -13,16 +14,16 @@
   }
 
   h1 {
-    font-size: 2.5rem;
+    font-size: 2.25rem;
     font-weight: bold;
-    margin: 1rem 0 0 0;
+    margin: 0;
   }
 
   .marketType {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     color: $grey;
-    margin: 0 0 2rem 0;
-    line-height: 1.5rem;
+    margin: 0 0 1.5rem 0;
+    line-height: 1.25rem;
   }
 
   .websiteLinkWrapper {

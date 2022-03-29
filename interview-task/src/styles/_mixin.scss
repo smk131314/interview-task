@@ -11,3 +11,9 @@
   align-items: center;
   justify-content: space-between;
 }
+
+@mixin flex-vertical {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

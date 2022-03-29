@@ -39,3 +39,11 @@ export const COMPANY_SUMMARY = {
   websiteLink: '/',
   socialMediaLink: '/',
 }
+
+export const TAB_LIST = [
+  'Latest Trades',
+  'Latest Announcements',
+  'Address',
+  'Contacts',
+  'Research'
+]
