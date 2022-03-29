@@ -17,12 +17,12 @@ const InfoTable = (props) => {
         <tbody>
           <tr>
             {titleList.map(title => (
-              <th>{title}</th>
+              <th key={title}>{title}</th>
             ))}
           </tr>
           <tr>
             {titleList.map(title => (
-              <td>{infoObj[title]}</td>
+              <td key={title}>{infoObj[title]}</td>
             ))}
           </tr>
         </tbody>
