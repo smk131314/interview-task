@@ -11,7 +11,7 @@ const TabItem = (props) => {
 
   return (
     <>
-      {isSelected ? <RoundCard>{children}</RoundCard> : <></>}
+      {isSelected ? <RoundCard title={tabName}>{children}</RoundCard> : <></>}
     </>
   )
 }

@@ -25,8 +25,8 @@ const CompanyDetailPage = () => {
           <TabItem tabName={TAB_LIST[4]} selectedTab={selectedTab}><p>5</p></TabItem>
           <TabItem tabName={TAB_LIST[5]} selectedTab={selectedTab}><p>6</p></TabItem>
           <div className={styles.fixedCard}>
-            <RoundCard><p>Overview</p></RoundCard>
-            <RoundCard><p>Overview</p></RoundCard>
+            <RoundCard title={'Overview'}><p>Overview</p></RoundCard>
+            <RoundCard title={'Key information'}><p>Overview</p></RoundCard>
           </div>
         </section>
       </main>

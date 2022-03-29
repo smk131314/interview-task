@@ -8,7 +8,7 @@ const RoundCard = (props) => {
 
   return (
     <div className={styles.RoundCard}>
-      <h1></h1>
+      <h1>{title}</h1>
       <div>{children}</div>
     </div>
   )
