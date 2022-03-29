@@ -48,3 +48,41 @@ export const TAB_LIST = [
   'Contacts',
   'Research'
 ]
+
+export const OVERVIEW_INFO = {
+  'Symbol': 'ADB',
+  'Ccy Code': 'GBX',
+  'Bid': '8900',
+  'Ask': '9400',
+  'Share Price (Mid)': '9150',
+  'Previous Close': '9150',
+  'Volume': '600',
+  'Last Traded': '25.03.22'
+}
+
+export const KEY_INFO = {
+  'Market Cap': '£26,154,543',
+  'ISIN':	'GB0000075845',
+  'Par':	'100',
+  'Inst Type':	'B Ordinary',
+  'Symbol':	'ADB',
+  'MIFID Status':	'MTF',
+  'Tradable securities in issue':	'285,842',
+  'Sector':	'Beverages',
+  '% daily price change':	'0.00%',
+}
+
+export const LATEST_TRADES = {
+}
+
+export const LATEST_ANNOUNCEMENTS = {
+}
+
+export const ADDRESS = {
+}
+
+export const CONTACTS = {
+}
+
+export const REASERCH = {
+}

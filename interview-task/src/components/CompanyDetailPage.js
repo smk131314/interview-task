@@ -4,8 +4,9 @@ import SummarySection from './SummarySection'
 import NavTabs from './NavTabs'
 import TabItem from './TabItem'
 import RoundCard from './common/RoundCard'
+import InfoTable from './InfoTable'
 import styles from '../styles/CompanyDetailPage.module.scss'
-import { COMPANY_SUMMARY, TAB_LIST } from '../constants/index'
+import { COMPANY_SUMMARY, TAB_LIST, OVERVIEW_INFO, KEY_INFO } from '../constants/index'
 
 const CompanyDetailPage = () => {
   const [selectedTab, setSelectedTab] = useState(TAB_LIST[0])
@@ -25,8 +26,8 @@ const CompanyDetailPage = () => {
           <TabItem tabName={TAB_LIST[4]} selectedTab={selectedTab}><p>5</p></TabItem>
           <TabItem tabName={TAB_LIST[5]} selectedTab={selectedTab}><p>6</p></TabItem>
           <div className={styles.fixedCard}>
-            <RoundCard title={'Overview'}><p>Overview</p></RoundCard>
-            <RoundCard title={'Key information'}><p>Overview</p></RoundCard>
+            <RoundCard title={'Overview'}><InfoTable infoObj={OVERVIEW_INFO}/></RoundCard>
+            <RoundCard title={'Key information'}><InfoTable isVertical infoObj={KEY_INFO}/></RoundCard>
           </div>
         </section>
       </main>

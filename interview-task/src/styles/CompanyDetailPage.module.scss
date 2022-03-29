@@ -21,13 +21,17 @@
   }
   
   .fixedCard {
-    width: 60%;
+    width: 20rem;
     height: 100%;
     margin-left: 1.25rem;
     @include flex-vertical;
 
-    div:last-child {
+    > div:first-child {
+      height: 9rem;
+    }
+    > div:last-child {
       margin-top: 1.25rem;
+      flex: 1;
     } 
   }
 

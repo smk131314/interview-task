@@ -1,11 +1,14 @@
+@import './mixin';
+
 .RoundCard {
   background-color: white;
   border-radius: 1.25rem;
   width: 100%;
   height: 100%;
+  @include flex-vertical;
 
   > h1 {
     font-size: 1.25rem;
-    margin: 1rem;
+    margin: 1rem 1rem 0.5rem 1rem;
   }
 }
