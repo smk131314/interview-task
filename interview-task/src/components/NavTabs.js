@@ -1,11 +1,25 @@
 import styles from '../styles/NavTabs.module.scss'
-import { TAB_LIST } from '../constants'
+import classNames from 'classnames/bind'
 
-const NavTabs = () => {
+const cx = classNames.bind(styles)
+
+const NavTabs = (props) => {
+  const {
+    selectedTab,
+    onTabClick,
+    tabList
+  } = props
+
   return (
-    <ul className={styles.navTabs}>
-      {TAB_LIST.map(tab => (
-        <li key={tab}>{tab}</li>
+    <ul className={cx('navTabs')}>
+      {tabList.map(tab => (
+        <li
+          className={cx({'selected': selectedTab === tab})}
+          onClick={() => onTabClick(tab)}
+          key={tab}
+        >
+          {tab}
+        </li>
       ))}
     </ul>
   )

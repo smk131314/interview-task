@@ -41,6 +41,7 @@ export const COMPANY_SUMMARY = {
 }
 
 export const TAB_LIST = [
+  'Overview',
   'Latest Trades',
   'Latest Announcements',
   'Address',

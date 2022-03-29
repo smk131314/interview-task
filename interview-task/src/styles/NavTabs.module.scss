@@ -12,5 +12,10 @@
 
  > li {
    margin-right: 1rem;
+
+   &.selected {
+     color: $blue;
+     font-weight: bold;
+   }
  }
 }
