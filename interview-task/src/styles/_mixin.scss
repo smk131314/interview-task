@@ -1,0 +1,19 @@
+@import "./variables";
+
+@mixin mobile-and-tablet {
+  @media (max-width: #{$breakpoint-desktop - 1px}) {
+    @content;
+  }
+}
+
+@mixin flex-horizontal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@mixin flex-vertical {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
