@@ -9,7 +9,7 @@ const Footer = () => {
         <ul>
           {FOOTER_LINK_LIST.map((link) => (
             <li key={link.id}>
-              <a href={link.link} target="_blank">
+              <a href={link.link} target="_blank" rel="noreferrer">
                 {link.iconPath
                   ? <img src={link.iconPath} alt={`${link.title} icon`}/>
                   : link.title}
