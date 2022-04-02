@@ -86,3 +86,29 @@ export const CONTACTS = {
 
 export const REASERCH = {
 }
+
+export const FOOTER_LINK_LIST = [
+  {
+    id: 'twitter',
+    title: 'twitter',
+    link: '',
+    iconPath: '/images/twitter.svg'
+  }, {
+    id: 'linkedIn',
+    title: 'linkedIn',
+    link: '',
+    iconPath: '/images/linkedIn.svg'
+  }, {
+    id: 'Terms & Conditions',
+    title: 'Terms & Conditions',
+    link: '',
+  }, {
+    id: 'Privacy Policy',
+    title: 'Privacy Policy',
+    link: '',
+  }, {
+    id: 'Modern Slavery & Human Trafficking Policy',
+    title: 'Modern Slavery & Human Trafficking Policy',
+    link: '',
+  }
+]

@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Header from './Header'
+import Footer from './Footer'
 import SummarySection from './SummarySection'
 import NavTabs from './NavTabs'
 import TabItem from './TabItem'
@@ -32,6 +33,7 @@ const CompanyDetailPage = () => {
           </div>
         </section>
       </main>
+      <Footer />
     </div>
   )
 }
