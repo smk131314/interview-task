@@ -8,10 +8,12 @@ const RoundButton = (props) => {
     children,
     onClick,
     isWide,
+    isFull,
+    isFilled
   } = props
 
   return (
-    <button className={cx({RoundButton, isWide: isWide})} type='button' onClick={onClick}>
+    <button className={cx({RoundButton, isWide, isFilled})} type='button' onClick={onClick}>
       {children}
     </button>
   )

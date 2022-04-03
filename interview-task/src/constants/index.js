@@ -40,15 +40,6 @@ export const COMPANY_SUMMARY = {
   socialMediaLink: '/',
 }
 
-export const TAB_LIST = [
-  'Overview',
-  'Latest Trades',
-  'Latest Announcements',
-  'Address',
-  'Contacts',
-  'Research'
-]
-
 export const OVERVIEW_INFO = {
   'Symbol': 'ADB',
   'Ccy Code': 'GBX',
@@ -188,12 +179,15 @@ export const LATEST_ANNOUNCEMENTS = [
 
 export const ADDRESS_LIST = [
   {
+    id: 'Business Address',
     title: 'Business Address',
     content: 'AQRU PLC, 16 Great Queen Street, London, WC2B 5DG, England.',
   }, {
+    id: 'Email',
     title: 'Email',
     content: 'nl@nlconsulting.co.uk',
   }, {
+    id: 'Registered Address',
     title: 'Registered Address',
     content: '16 Great Queen Street, London, WC2B 5DG, England.',
   }
@@ -201,23 +195,26 @@ export const ADDRESS_LIST = [
 
 export const CONTACT_LIST = [
   {
+    id: 'Corporate Adviser',
     title: 'Corporate Adviser',
     content: 'Novum Securities, 2nd Floor Lansdowne House, 57 Berkeley Square, London, United Kingdom.',
   }, {
+    id: 'Email',
     title: 'Email',
     content: 'corporatefinance@novumsecurities.com',
     name: 'email'
   }, {
+    id: 'corpPhone',
     title: 'Phone',
     content: '020 7399 9400',
-    name: 'corpPhone'
   }, {
+    id: 'Registrar',
     title: 'Registrar',
     content: 'Computershare Investor Services plc (London), 2nd Floor Vintners Place, 68 Upper Thames Street, London, London, EC4V 3BJ, England.',
   }, {
+    id: 'regPhone',
     title: 'Phone',
     content: '0870 703 6025',
-    name: 'regPhone'
   }
 ]
 

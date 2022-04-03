@@ -11,4 +11,10 @@
   &.isWide {
     width: 6rem;
   }
+
+  &.isFilled {
+    background-color: $orange;
+    color: white;
+    border: none;
+  }
 }
