@@ -1,12 +1,20 @@
+@import './variables';
+
 .RoundButton {
   height: 2rem;
   width: 2rem;
-  color: white;
-  border: 1px solid white;
+  color: $dark-blue;
+  border: 1px solid $dark-blue;
   border-radius: 2rem;
   background-color: transparent;
 
   &.isWide {
     width: 6rem;
+  }
+
+  &.isFilled {
+    background-color: $orange;
+    color: white;
+    border: none;
   }
 }
