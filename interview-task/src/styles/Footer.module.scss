@@ -23,6 +23,14 @@
 @include mobile-and-tablet {
   .mainFooter {
     @include flex-vertical;
-    align-items: flex-start;
+    align-items: center;
+
+    ul {
+      border: none;
+    }
+
+    li {
+      text-align: center;
+    }
   }
 }

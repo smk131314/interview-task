@@ -20,7 +20,7 @@ const SummarySection = (props) => {
         <p className={styles.marketType}>{marketType}</p>
         <p className={styles.desc}>{desc}</p>
       </div>
-      <div>
+      <div className={styles.linksContainer}>
         <a href={websiteLink}><img className={styles.logo} src={logoLink} alt={`${name} logo`}/></a>
         <div className={styles.linkIconWrapper}>
           <a href={websiteLink}>

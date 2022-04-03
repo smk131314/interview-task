@@ -8,7 +8,7 @@
   @include flex-vertical;
 
   main {
-    padding: 1.25rem 10vw;
+    padding: 2rem 10vw;
     height: 100%;
     flex: 1;
     @include flex-vertical;
@@ -41,6 +41,32 @@
     }
     span {
       line-height: 1rem;
+    }
+  }
+}
+
+@include mobile-and-tablet {
+  .companyDetailPage {
+    main {
+      padding: 1.5rem 5vw;
+    }
+
+    .bottomSection {
+      @include flex-vertical;
+    }
+
+    .bottomSection,
+    .fixedCardWrapper {
+      margin-top: 1.5rem;
+    }
+
+    .fixedCardWrapper {
+      margin-left: 0;
+    }
+
+    .fixedCardWrapper,
+    .cardTabsWrapper {
+      width: 100%;
     }
   }
 }
