@@ -4,9 +4,11 @@
 .summarySection {
   @include flex-horizontal;
   height: 30%;
+  margin-bottom: 2.5rem;
 
   p {
-    font-size: 0.75rem;
+    font-size: 14px;
+    line-height: 1rem;
   }
 
   .desc {
@@ -47,5 +49,28 @@
     img {
       width: 1.25rem;
     }
+  }
+}
+
+@include mobile-and-tablet {
+  .summarySection {
+    @include flex-vertical;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+
+    .linksContainer {
+      @include flex-horizontal;
+      flex-direction: row-reverse;
+    }
+
+    .logo {
+      width: 8rem;
+    }
+    
+    .linkIconWrapper > :last-child,
+    .logo {
+      margin-left: 0.5rem;
+    }
+    
   }
 }

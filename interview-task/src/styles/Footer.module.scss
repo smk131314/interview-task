@@ -1,0 +1,36 @@
+@import './mixin';
+@import './variables';
+
+.mainFooter {
+  background-color: $dark-blue;
+  color: white;
+  font-size: 0.75rem;
+  padding: 1.5rem 4rem;
+
+  @include flex-horizontal;
+
+  ul {
+    border-left: 2px solid white;
+    padding-left: 1rem;
+  }
+
+  img {
+    width: 1.75rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
+@include mobile-and-tablet {
+  .mainFooter {
+    @include flex-vertical;
+    align-items: center;
+
+    ul {
+      border: none;
+    }
+
+    li {
+      text-align: center;
+    }
+  }
+}
