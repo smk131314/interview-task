@@ -72,20 +72,156 @@ export const KEY_INFO = {
   '% daily price change':	'0.00%',
 }
 
-export const LATEST_TRADES = {
-}
+export const LATEST_TRADES = [
+  {
+    'id': '1',
+    'date': '28.03.22',
+    'time': '16:01:59',
+    'volume': '150000',
+    'price': '1.8'
+  }, {
+    'id': '2',
+    'date': '28.03.22',
+    'time': '16:10:46',
+    'volume': '50000',
+    'price': '2'
+  }, {
+    'id': '3',
+    'date': '28.03.22',
+    'time': '15:40:35',
+    'volume': '30000',
+    'price': '2'
+  }, {
+    'id': '4',
+    'date': '28.03.22',
+    'time': '16:10:46',
+    'volume': '50000',
+    'price': '2'
+  }, {
+    'id': '5',
+    'date': '28.03.22',
+    'time': '16:10:46',
+    'volume': '50000',
+    'price': '2'
+  }, {
+    'id': '6',
+    'date': '28.03.22',
+    'time': '16:10:46',
+    'volume': '50000',
+    'price': '2'
+  }, {
+    'id': '7',
+    'date': '28.03.22',
+    'time': '16:10:46',
+    'volume': '50000',
+    'price': '2'
+  }, {
+    'id': '8',
+    'date': '28.03.22',
+    'time': '16:10:46',
+    'volume': '50000',
+    'price': '2'
+  }, {
+    'id': '9',
+    'date': '28.03.22',
+    'time': '16:10:46',
+    'volume': '50000',
+    'price': '2'
+  }, {
+    'id': '10',
+    'date': '28.03.22',
+    'time': '16:10:46',
+    'volume': '50000',
+    'price': '2'
+  }, {
+    'id': '11',
+    'date': '28.03.22',
+    'time': '16:10:46',
+    'volume': '50000',
+    'price': '2'
+  }
+]
 
-export const LATEST_ANNOUNCEMENTS = {
-}
+export const LATEST_ANNOUNCEMENTS = [
+  {
+    'id': '1',
+    'date': '01.04.22',
+    'time': '17:13:00',
+    'title': 'AQRU plc - Notice of Annual General Meeting'
+  }, {
+    'id': '2',
+    'date': '01.04.22',
+    'time': '07:15:00',
+    'title': 'AQRU plc - Major milestone achieved for AQRU.io platform'
+  }, {
+    'id': '3',
+    'date': '01.04.22',
+    'time': '07:00:00',
+    'title': 'AQRU plc - Annual results'
+  }, {
+    'id': '4',
+    'date': '25.03.22',
+    'time': '07:00:00',
+    'title': 'AQRU plc - Partnership with Maple Finance'
+  }, {
+    'id': '5',
+    'date': '02.02.22',
+    'time': '07:00:00',
+    'title': 'AQRU plc - Acquisition of Bison Exchange UAB'
+  }, {
+    'id': '6',
+    'date': '01.04.22',
+    'time': '17:13:00',
+    'title': 'AQRU plc - Notice of Annual General Meeting'
+  }, {
+    'id': '7',
+    'date': '01.04.22',
+    'time': '17:13:00',
+    'title': 'AQRU plc - Notice of Annual General Meeting'
+  }, {
+    'id': '8',
+    'date': '01.04.22',
+    'time': '17:13:00',
+    'title': 'AQRU plc - Notice of Annual General Meeting'
+  }
+]
 
-export const ADDRESS = {
-}
+export const ADDRESS_LIST = [
+  {
+    title: 'Business Address',
+    content: 'AQRU PLC, 16 Great Queen Street, London, WC2B 5DG, England.',
+  }, {
+    title: 'Email',
+    content: 'nl@nlconsulting.co.uk',
+  }, {
+    title: 'Registered Address',
+    content: '16 Great Queen Street, London, WC2B 5DG, England.',
+  }
+]
 
-export const CONTACTS = {
-}
+export const CONTACT_LIST = [
+  {
+    title: 'Corporate Adviser',
+    content: 'Novum Securities, 2nd Floor Lansdowne House, 57 Berkeley Square, London, United Kingdom.',
+  }, {
+    title: 'Email',
+    content: 'corporatefinance@novumsecurities.com',
+    name: 'email'
+  }, {
+    title: 'Phone',
+    content: '020 7399 9400',
+    name: 'corpPhone'
+  }, {
+    title: 'Registrar',
+    content: 'Computershare Investor Services plc (London), 2nd Floor Vintners Place, 68 Upper Thames Street, London, London, EC4V 3BJ, England.',
+  }, {
+    title: 'Phone',
+    content: '0870 703 6025',
+    name: 'regPhone'
+  }
+]
 
-export const REASERCH = {
-}
+export const REASERCH_LIST = []
 
 export const FOOTER_LINK_LIST = [
   {
