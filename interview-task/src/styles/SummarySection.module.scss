@@ -4,6 +4,7 @@
 .summarySection {
   @include flex-horizontal;
   height: 30%;
+  margin-bottom: 2.5rem;
 
   p {
     font-size: 14px;
