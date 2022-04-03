@@ -20,9 +20,9 @@ const CompanyDetailPage = () => {
         <a className={styles.backButton}><img src='/images/arrow_back.svg' alt='back icon'/><span>Back</span></a>
         <SummarySection CompanyInfo={COMPANY_SUMMARY} />
         <RoundCard isSmall title={'Overview'}><InfoTable infoObj={OVERVIEW_INFO}/></RoundCard>
+        <NavTabs selectedTab={selectedTab} onTabClick={setSelectedTab} tabList={TAB_LIST}/>
         <section className={styles.bottomSection}>
           <div className={styles.cardTabsWrapper}>
-            <NavTabs selectedTab={selectedTab} onTabClick={setSelectedTab} tabList={TAB_LIST}/>
             <TabItem tabName={TAB_LIST[0]} selectedTab={selectedTab}><StockChart /></TabItem>
             <TabItem tabName={TAB_LIST[1]} selectedTab={selectedTab}><p>{TAB_LIST[1]}</p></TabItem>
             <TabItem tabName={TAB_LIST[2]} selectedTab={selectedTab}><p>{TAB_LIST[2]}</p></TabItem>

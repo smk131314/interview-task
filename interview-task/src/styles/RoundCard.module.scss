@@ -13,6 +13,10 @@
     font-size: 1.25rem;
     margin: 1rem 1rem 0.5rem 1rem;
   }
+
+  > :last-child {
+    flex: 1;
+  }
   
   &.isSmall {
     justify-content: space-between;
